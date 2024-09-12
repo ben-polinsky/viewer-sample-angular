@@ -9,10 +9,10 @@
 export const environment = {
   production: false,
   authorization: {
-    clientId: "",
-    scope: "",
-    redirectUri: "http://localhost:3000/signin-callback",
-    postSignoutRedirectUri: "http://localhost:3000/logout",
+    clientId: "spa-MIKi89nz6jpX8H5fz6IYcW978",
+    scope: "itwin-platform",
+    redirectUri: "https://viewersampleangular-dvlg--3000--28a8ce1b.local-credentialless.webcontainer.io/",
+    postSignoutRedirectUri: "https://viewersampleangular-dvlg--3000--28a8ce1b.local-credentialless.webcontainer.io/",
     responseType: "code",
     authority: "https://ims.bentley.com"
   },
